@@ -7,3 +7,9 @@
 - [Repositories](https://docs.google.com/spreadsheets/d/1M3B-qwrJN2wbeZmIBoA3r0hnP8yy4CKf2euV1oF61os/edit?usp=sharing)
 - [Verselsite](https://adsoelpix.vercel.app/)
 
+---
+## URL utils
+- [SVG Bgs](https://www.svgbackgrounds.com/)
+- [Fuentes](https://fonts.google.com/)
+- [Image color picker](https://imagecolorpicker.com/)
+- [Font Awesome](https://fontawesome.com/icons)
