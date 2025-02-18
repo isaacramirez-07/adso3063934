@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(68, 87, 110);
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    justify-content: center;
+    min-height: 100dvh;
+}
+
+main { 
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    width: 380px;
+
+    header {
+        h1{
+            text-align: center;
+            border-bottom: 1px solid rgb(88, 145, 209);
+            margin: 0;
+        }
+        section.info{
+            display: flex;
+            gap: 1rem;
+            justify-content: space-between;
+
+            div{
+                display: flex;
+                align-items: center;
+                gap: .5rem;
+                span{
+                    align-items: center;
+                    border-radius: 50%;
+                    background-color: #0e91ce;
+                    color: #fff;
+                    display: flex;
+                    justify-content: center;
+                    height: 30px;
+                    width: 30px;
+                
+                }
+            }
+        }
+    }
+    section.list{
+        article{
+            background-color: rgb(112, 190, 241);
+            border-radius: 0.4rem;
+            display: flex;
+            gap: 4rem;
+            margin-bottom: 0.4rem;
+            justify-content: space-between;
+            padding-inline: 1rem;
+            align-items: center;
+            &.checked {
+                background-color: rgba(67, 172, 233, 0.2) !important;
+                p{
+                    text-decoration: line-through;
+                }
+            }
+            input{
+                accent-color: rgb(20, 140, 220);
+                zoom: 1,4;
+            }
+            button{
+                background-color: crimson;
+                border-radius: 50%;
+                color: white;
+                cursor: pointer;
+                border: none;
+                height: 20px;
+                width: 20px;
+                transition: transform 0.2s ease-in;
+                &:hover {
+                    transform: scale(1.4);
+                }
+
+            }
+        }
+        article:nth-child(even) {
+            background-color: rgb(214, 213, 212);
+        }
+
+        }
+        footer{
+            display: flex;
+            input{
+                border: 1px solid #444;
+                border-right-color: rgb(87, 187, 40);
+                border-radius: .4rem 0 0 0.4rem;
+                width: 380px;
+                outline: none;
+                padding: 0.8rem;
+            }
+            button{
+                background-color: green;
+                border-radius: 0 0.4rem 0.4rem 0;
+                border: 1px solid #444;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 1.4rem;
+                color: white;
+                width: 39px;
+            }
+        }
+    }
