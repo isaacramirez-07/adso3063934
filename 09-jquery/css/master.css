@@ -59,7 +59,7 @@ main {
                 }
             }
             input{
-                accent-color: rgb(20, 140, 220);
+                accent-color: rgb(15, 238, 7);
                 zoom: 1,4;
             }
             button{
@@ -104,5 +104,18 @@ main {
                 color: white;
                 width: 39px;
             }
+        }
+        #eliminar {
+            background-color: rgb(250, 250, 31);
+            border: 1px solid #000;
+            border-radius: .4rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            padding: .4rem 1.2rem;
+            margin: .4rem auto;
+            color: black;
         }
     }
